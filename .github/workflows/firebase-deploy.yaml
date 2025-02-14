@@ -10,8 +10,7 @@ jobs:
       - uses: actions/checkout@v4
       
       - name: Install Dependencies
-        run: |
-          npm install
+        run: npm install
         
       - name: Deploy to Firebase
         uses: FirebaseExtended/action-hosting-deploy@v0
@@ -23,3 +22,4 @@ jobs:
           target: site
         env:
           FIREBASE_CLI_EXPERIMENTS: webframeworks
+          GCP_SA_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_FB_TOOLS_DEV }}
