@@ -1,5 +1,12 @@
 {
   "projects": {
     "default": "fb-tools-dev"
+  },
+  "targets": {
+    "fb-tools-dev": {
+      "hosting": {
+        "site": ["fb-tools-dev"]
+      }
+    }
   }
 }
