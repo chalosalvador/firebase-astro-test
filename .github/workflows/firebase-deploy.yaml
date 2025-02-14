@@ -15,10 +15,14 @@ jobs:
           node-version: '20'
           
       - name: Install Dependencies
-        run: npm install
+        run: |
+          npm install
+          cd functions && npm install
         
       - name: Build
-        run: npm run build
+        run: |
+          npm run build
+          cd functions && npm run build
         
       - name: Deploy to Firebase
         uses: FirebaseExtended/action-hosting-deploy@v0

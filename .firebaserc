@@ -5,7 +5,9 @@
   "targets": {
     "fb-tools-dev": {
       "hosting": {
-        "site": ["fb-tools-dev"]
+        "site": [
+          "fb-tools-dev"
+        ]
       }
     }
   }
