@@ -24,3 +24,5 @@ pnpm-debug.log*
 .idea/
 
 .firebase/
+
+firebase-debug.log*
