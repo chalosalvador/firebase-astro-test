@@ -20,7 +20,7 @@ jobs:
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_FB_TOOLS_DEV }}
-          # channelId: live
+          channelId: live
           projectId: fb-tools-dev
           # target: site
         env:
