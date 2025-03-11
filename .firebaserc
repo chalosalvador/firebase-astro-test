@@ -5,10 +5,11 @@
   "targets": {
     "fb-tools-dev": {
       "hosting": {
-        "site": [
+        "fb-tools-dev-deploy-test": [
           "fb-tools-dev"
         ]
       }
     }
-  }
+  },
+  "etags": {}
 }
