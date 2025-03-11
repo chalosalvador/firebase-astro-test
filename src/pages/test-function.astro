@@ -1,0 +1,21 @@
+---
+// This will force server-side execution
+const timestamp = new Date().toISOString();
+const randomNumber = Math.random();
+
+// Make an external API call to force server-side execution
+const response = await fetch("https://api.github.com/zen");
+const data = await response.text();
+---
+
+<html>
+  <head>
+    <title>SSR Test</title>
+  </head>
+  <body>
+    <h1>Server-Side Generated Content</h1>
+    <p>Server timestamp: {timestamp}</p>
+    <p>Random number: {randomNumber}</p>
+    <p>API Response!!!: {data}</p>
+  </body>
+</html>
