@@ -1,6 +1,7 @@
 {
   "hosting": {
-    "source": ".",
+    "target": "fb-tools-dev-deploy-test",
+		"public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",
