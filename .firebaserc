@@ -6,7 +6,7 @@
     "fb-tools-dev": {
       "hosting": {
         "fb-tools-dev-site": [
-          "fb-tools-dev"
+          "fb-tools-dev-site"
         ]
       }
     }
