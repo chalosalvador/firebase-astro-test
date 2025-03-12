@@ -23,5 +23,6 @@ jobs:
           channelId: live
           projectId: fb-tools-dev
           # target: fb-tools-dev-site
+          debug: true
         env:
           FIREBASE_CLI_EXPERIMENTS: webframeworks
